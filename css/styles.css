@@ -1,0 +1,197 @@
+/********** ELEMENT SELECTORS **********/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: #40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  padding-top: 70px;
+  font-family: "Sacramento", sans-serif;
+  font-size: 112px;
+  color: #66BFBF;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  width: 4%;
+  border-style: dotted none none none;
+  border-width: 7px;
+  border-color: #EAF6F6;
+  margin-top: 6rem;
+}
+
+p {
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1rem 2rem;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+/********** CLASS SELECTORS **********/
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.mountain-img {
+  width: 48rem;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+.whatami {
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 50px;
+}
+
+.bottom-cloud {
+  display: block;
+  position: relative;
+  left: 20rem;
+}
+
+.abottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile-img {
+  margin-top: 100px;
+}
+
+.summary {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.myskills {
+  margin-top: 7.3rem;
+}
+
+.skill-row {
+  width: 51%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+  position: relative;
+}
+
+.code-img {
+  width: 17rem;
+  position: absolute;
+}
+
+.code-heading {
+  line-height: 1;
+  margin-left: 20.25rem;
+}
+
+.code-text {
+  margin-left: 20.25rem;
+}
+
+.hotwings-img {
+  width: 15rem;
+  position: absolute;
+  right: 0%;
+}
+
+.hotwings-heading {
+  line-height: 1;
+  margin: 10rem auto 0 auto;
+  text-align: left;
+  color: #11999E;
+}
+
+.hotwings-text {
+  margin-right: 20rem;
+  text-align: left;
+}
+
+.below-wings-hr {
+  margin-top: 10rem;
+}
+
+.contact-me {
+  margin-bottom: 6.5rem;
+}
+
+.git {
+  margin-top: 8rem;
+}
+
+.wings-para {
+  margin: 3rem auto 4rem;
+  width: 40%;
+}
+
+.btn {
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: linear-gradient(180deg, #44bbdd 0%, #40b5d6 30%, #30a5c6 65%, #129abc 100%);
+  border-radius: 8px;
+  border: 0px solid #379;
+  border-width: 0px 0px 5px 0px;
+  padding: 9px 15px 6px 15px;
+  box-shadow: inset 0px 1px 3px rgba(255, 255, 255, .4);
+  color: #fff;
+  font-size: initial;
+  font-family: 'Montserrant', sans-serif;
+  font-weight: 900;
+  font-style: normal
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 4rem 0 2.25rem;
+}
+
+
+
+.name-surname {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 1.25rem 0;
+}
+
+/********** ID SELECTORS **********/
